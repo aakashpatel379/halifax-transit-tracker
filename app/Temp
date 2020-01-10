@@ -1,0 +1,39 @@
+
+//        if(locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)){
+//
+//            //check whether network provider is enabled
+//            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, new LocationListener() {
+//                @Override
+//                public void onLocationChanged(Location location) {
+//                    double latitude = location.getLatitude();
+//                    double longitude = location.getLongitude();
+//                    LatLng latLng = new LatLng(latitude, longitude);
+//                    Geocoder geocoder = new Geocoder(getApplicationContext());
+//                    try {
+//                        List<Address> addressList =geocoder.getFromLocation(latitude,longitude, 1);
+//                        String str= addressList.get(0).getLocality();
+//                        str+= addressList.get(0).getCountryName();
+//                        mMap.addMarker(new MarkerOptions().position(latLng).title(str));
+//                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10.2f));
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+//
+//                @Override
+//                public void onStatusChanged(String provider, int status, Bundle extras) {
+//
+//                }
+//
+//                @Override
+//                public void onProviderEnabled(String provider) {
+//
+//                }
+//
+//                @Override
+//                public void onProviderDisabled(String provider) {
+//
+//                }
+//            });
+//        }
+
