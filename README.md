@@ -4,8 +4,6 @@ Its a Transit app application. It is designed to serve for custom requirements a
 
 ## Usage and Features
 
-    
-
     - On launch, a map is displayed, overlaid with indicators showing the current positions of all
     or selected buses.
     - The marker for each bus includes the route number.
@@ -15,11 +13,10 @@ Its a Transit app application. It is designed to serve for custom requirements a
     - The user can zoom and pan the map freely.
     - When returning to the app, the map shows the same region it was showing when the app was
     paused or closed (even if the app is terminated and relaunched).
-
     -The map is made to show default location on start.
     -Application requests for location permissions on start.
     
-
+<img src="/transit_ss.jpg" alt="drawing" width="200"/>
 
 ## Known Limitation
     
