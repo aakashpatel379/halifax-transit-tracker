@@ -16,7 +16,7 @@ Its a Transit app application. It is designed to serve for custom requirements a
     -The map is made to show default location on start.
     -Application requests for location permissions on start.
     
-<img src="/transit_ss.jpg" alt="drawing" width="200"/>
+<img src="transit_ss.jpg" width="200"/>
 
 ## Known Limitation
     
